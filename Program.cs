@@ -3,31 +3,25 @@
     internal class Program
 
     {
-        static void Printnumber(int k)
-        {
-            k = k + 3;
-            Console.WriteLine($"Zahl {k}");
-        }
-        static void PrintMessege(string s)
-        {
-            Console.WriteLine($"Message {s}");
-        }
+    
         static void Main(string[] args)
+
         {
-            // var a = 5;
-            //Printnumber(a);
-            //var res = Add(5, 7);
-            //Console.WriteLine($"Main {a}");
-           // var message = "Hello ";
-            //PrintMessege(message);
-            //Console.WriteLine($"Main {message}");
+            int[] values = new int [20];
+            values [3] = 5;
+            int[] values2 = new int[25];
+            Console.WriteLine(values2[3]);
+            for (int i = 0; i < values.Length; i++)
+            {
+                values2[i] = values[i];
+            }
 
-            var p = new Person();
-            p.Name = "Max";
-            p.Age = 25;
-
-
-
+            Console.WriteLine(values2[3]);
+            Person p2 = new Person();
+            Person[] persList = new Person[20];
+            return;
+        }
+        
         }
     }
         public class Person{
@@ -35,5 +29,5 @@
         public string Name { get; set; } //Property
         public int Age { get; set; }
     }
-}
+
 
