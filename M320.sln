@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helloworld1", "Helloworld1.csproj", "{CF927070-9FF4-4666-9B19-4108BEBD45C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helloworld1", "HelloWorld\Helloworld1.csproj", "{CF927070-9FF4-4666-9B19-4108BEBD45C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe2", "..\aufgabe2\aufgabe2.csproj", "{799E4025-35EE-43DE-9188-DE0722ACBF23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe2", "aufgabe2\aufgabe2.csproj", "{799E4025-35EE-43DE-9188-DE0722ACBF23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saper", "..\Saper\Saper.csproj", "{1B16256F-7458-4D9B-83BA-4F795DD5E10F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saper", "Saper\Saper.csproj", "{1B16256F-7458-4D9B-83BA-4F795DD5E10F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
